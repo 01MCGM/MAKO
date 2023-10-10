@@ -1,4 +1,13 @@
-use nombre_de_la_bd;
+use bdmako;
 
-TRUNCATE TABLE nombretabla;
-DROP TABLE nombredelatabla;
+TRUNCATE TABLE comentarios;
+TRUNCATE TABLE datos_generales;
+TRUNCATE TABLE usuario;
+
+
+DROP TABLE comentarios;
+DROP TABLE datos_generales;
+DROP TABLE usuario;
+
+DROP DATABASE bdmako;
+TRUNCATE DATABASE bdmako;
